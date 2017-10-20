@@ -8,7 +8,7 @@
 
 import XCTest
 
-import ExtDomainModel
+import SimpleDomainModel
 
 class PersonTests: XCTestCase {
 

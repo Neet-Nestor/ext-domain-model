@@ -8,7 +8,7 @@
 
 import XCTest
 
-import ExtDomainModel
+import SimpleDomainModel
 
 //////////////////
 // Basic "test that the tests are working" tests

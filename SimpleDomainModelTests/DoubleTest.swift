@@ -8,7 +8,7 @@
 
 import XCTest
 
-import ExtDomainModel
+import SimpleDomainModel
 
 class DoubleTest: XCTestCase {
     let tenUSD = 10.0.USD
