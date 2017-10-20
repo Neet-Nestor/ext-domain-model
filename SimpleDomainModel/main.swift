@@ -232,11 +232,13 @@ open class Family: CustomStringConvertible {
   fileprivate var members : [Person] = []
     public var description: String {
         get {
-            var membersString: String = ""
+            var familyString: String = ""
             for member in members {
-                membersString = membersString + member.description + "\n"
+                familyString = familyString + member.description + "\n"
             }
-            return membersString
+            let income: Int = householdIncome()
+            familyString = familyString + "Househould income: \(income)"
+            return familyString
         }
     }
   
